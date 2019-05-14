@@ -1,0 +1,13 @@
+/*Learned how to make CSS use one style over another, keep putting new code within brackets {} and messing it up.*/
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+  .pink-text {
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
