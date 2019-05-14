@@ -1,0 +1,16 @@
+/*Learned that you can override styles. Slow and steady wins the race. (Last overrides first in the style element, does not matter for classes)*/
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
