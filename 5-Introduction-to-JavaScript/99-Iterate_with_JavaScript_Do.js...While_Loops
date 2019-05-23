@@ -1,0 +1,11 @@
+//Learned about a do...while loop. A do...while loop will run at least once before it stops due to the while.
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+
+do {
+  myArray.push(i);
+  i++;
+} while (i < 5)
