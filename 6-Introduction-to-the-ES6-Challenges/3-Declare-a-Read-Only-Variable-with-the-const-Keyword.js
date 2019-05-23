@@ -1,0 +1,15 @@
+//Learned to const keyword and that it has all the features let has but const are a read only, constant value. It cannot be reassigned.
+function printManyTimes(str) {
+  "use strict";
+
+  // change code below this line
+
+  const SENTENCE = str + " is cool!";
+  for(let i = 0; i < str.length; i+=2) {
+    console.log(SENTENCE);
+  }
+
+  // change code above this line
+
+}
+printManyTimes("freeCodeCamp");
